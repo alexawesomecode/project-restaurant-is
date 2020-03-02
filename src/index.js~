@@ -1,0 +1,17 @@
+import { onLoad } from './onload.js'
+
+onLoad();
+
+
+let changeTabs = (e) => {
+
+    console.log(e.classList[1]);
+    const tabValue = e.classList[1];
+    
+    
+};
+
+
+const tabs = document.querySelectorAll('.tabs');
+console.log(tabs);
+tabs.forEach((elem) => elem.addEventListener('click', changeTabs(elem)));
