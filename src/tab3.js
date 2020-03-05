@@ -1,13 +1,8 @@
 
-let tabThird = (tab, content, card) => {
+const tabThird = (tab, content, card) => {
+  card.classList.add('move');
 
-
-
-
-    card.classList.add('move');
-	  
 	  setTimeout((e) => {
-
 	      card.innerHTML = `
 
 
@@ -18,11 +13,7 @@ Next to DiamondSutra Mall
 `;
 	      content.style.backgroundImage = `url('../imgs/${tab}.jpg')`;
 	      card.classList.remove('move');
-
 	  }, 800);
-	  
-    
-    
 };
 
-export { tabThird }; 
+export { tabThird };

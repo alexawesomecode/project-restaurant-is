@@ -1,10 +1,9 @@
 
-let setStyle = () => {
+const setStyle = () => {
+  const stylings = document.createElement('style');
+  document.querySelector('head').appendChild(stylings);
 
-let stylings = document.createElement('style');
-document.querySelector('head').appendChild(stylings);
-
-document.querySelector('style').innerHTML =   `
+  document.querySelector('style').innerHTML = `
 
  .central p {
 

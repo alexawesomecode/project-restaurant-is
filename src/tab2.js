@@ -1,10 +1,8 @@
 
-let tabSecond = (tab, content, card) => {
-
+const tabSecond = (tab, content, card) => {
 	  card.classList.add('move');
-	  
-	  setTimeout((e) => {
 
+	  setTimeout((e) => {
 	      card.innerHTML = `
 
 wanna know paradise without needing to travel to thailand?
@@ -15,11 +13,7 @@ visit us!
 `;
 	      content.style.backgroundImage = `url('../imgs/${tab}.jpg')`;
 	      card.classList.remove('move');
-
 	  }, 800);
-	  
-    
-    
 };
 
-export { tabSecond }; 
+export { tabSecond };

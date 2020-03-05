@@ -1,10 +1,9 @@
 function onLoad() {
+  // content styling
 
-    // content styling
-    
-    const content = document.getElementById('content');
-    console.log(content);
-    content.style.cssText = `
+  const content = document.getElementById('content');
+  console.log(content);
+  content.style.cssText = `
 
  	 background-image: url("../imgs/auth.jpg");
 	 background-size: cover;
@@ -14,11 +13,11 @@ function onLoad() {
 
   
 `;
-    // child creation and styling
+  // child creation and styling
 
-    let central = document.createElement('div');
-    content.appendChild(central);
-    central.outerHTML =  `
+  const central = document.createElement('div');
+  content.appendChild(central);
+  central.outerHTML = `
       <nav>
 	<div class="logo">
 	  <span>sawadika!</span>
@@ -34,7 +33,7 @@ function onLoad() {
       `;
 
 
-    document.getElementById('central').style.cssText = `
+  document.getElementById('central').style.cssText = `
 
    background: yellow;
    width: 70%;
@@ -48,11 +47,9 @@ padding-top:5%;
   
 
     `;
-    document.getElementById('central').innerHTML = 'We are the bomb, a bomb of flavors, come and taste the richness & and extraordinaries possibilites that offers the real thai food. Welcome to Sawadika!';
-    
-    document.querySelectorAll('button').forEach((elem) =>
+  document.getElementById('central').innerHTML = 'We are the bomb, a bomb of flavors, come and taste the richness & and extraordinaries possibilites that offers the real thai food. Welcome to Sawadika!';
 
-	{
+  document.querySelectorAll('button').forEach((elem) => {
 	 elem.style.cssText = `
 border:none;
    color: white;
@@ -63,31 +60,30 @@ border:none;
 	 font-size: 22px;
 	 margin-top: 3%;;
       padding:16px;
-`
-	});
+`;
+  });
 
-    document.querySelector('nav').style.cssText = `
+  document.querySelector('nav').style.cssText = `
 	 display:flex;
 	 flex:1;
 	 justify-content: space-between;
 
     `;
 
-    document.querySelector('span').style.cssText =  ` 	 display:block;
+  document.querySelector('span').style.cssText = ` 	 display:block;
 	 color: white;
 	 font-size: 2rem;
 	 font-weight: bold;
 	 font-family: monospace;
 	 line-height: 29px;
     `;
-    
-    document.querySelector('.logo').style.cssText =  ` width: 20%;
+
+  document.querySelector('.logo').style.cssText = ` width: 20%;
     background: black;
     padding: 3%;
     margin: 2%;
     text-align:center;
     `;
-    document.querySelector('body').style.backgroundColor = "yellow";
-
+  document.querySelector('body').style.backgroundColor = 'yellow';
 }
 export { onLoad };

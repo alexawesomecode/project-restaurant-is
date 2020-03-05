@@ -1,20 +1,32 @@
 {
-  "name": "project-js-restaurant",
+  "name": "project-restaurant-js",
   "version": "1.0.0",
-  "private": true,
-  "main": "main.js",
+  "description": "[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url]",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexawesomecode/project-restaurant-js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/alexawesomecode/project-restaurant-js/issues"
+  },
+  "homepage": "https://github.com/alexawesomecode/project-restaurant-js#readme",
   "devDependencies": {
-    "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "webpack": "^4.42.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "eslint-auto-fix": "^1.0.1"
   }
 }
