@@ -33,28 +33,38 @@ function onLoad() {
       <div id="central"></div>
       `;
 
-    central.style.cssText = ` 	 background: yellow;
-	 
-	 width: 70%;
+
+    document.getElementById('central').style.cssText = `
+
+   background: yellow;
+   width: 70%;
 	 margin: 7% auto;
-	 height: auto;
+	 height: 28%;
 	 text-align:center;
+font-size: 20px;
+font-family: Mono;
+padding-top:5%;
+
+  
 
     `;
+    document.getElementById('central').innerHTML = 'We are the bomb, a bomb of flavors, come and taste the richness & and extraordinaries possibilites that offers the real thai food. Welcome to Sawadika!';
     
     document.querySelectorAll('button').forEach((elem) =>
 
 	{
-	 elem.style.cssText = ` border: none;
-	 padding: 13px;
-	 background: none;
-	 color: white;
+	 elem.style.cssText = `
+border:none;
+   color: white;
+   text-decoration: none;
+   background-color: transparent;
 	 text-transform: uppercase;
 	 font-weight: bold;
 	 font-size: 22px;
-	 margin-top: 3%;`;
-	}
-    )
+	 margin-top: 3%;;
+      padding:16px;
+`
+	});
 
     document.querySelector('nav').style.cssText = `
 	 display:flex;
