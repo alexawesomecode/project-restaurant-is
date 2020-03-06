@@ -1,6 +1,4 @@
 function onLoad() {
-  
-
   const content = document.getElementById('content');
   const central = document.createElement('div');
   content.appendChild(central);
@@ -20,6 +18,5 @@ function onLoad() {
       `;
 
   document.getElementById('central').innerHTML = 'We are the bomb, a bomb of flavors, come and taste the richness & and extraordinaries possibilites that offers the real thai food. Welcome to Sawadika!';
-
 }
 export { onLoad };

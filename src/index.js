@@ -6,7 +6,6 @@ import { tabThird } from './tab3.js';
 onLoad();
 
 
-
 const changeTabs = (elem) => {
   const content = document.getElementById('content');
   const card = document.getElementById('central');
