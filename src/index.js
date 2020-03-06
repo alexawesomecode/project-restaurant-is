@@ -1,11 +1,10 @@
 import { onLoad } from './onload.js';
-import { setStyle } from './setStyle.js';
 import { tabFirst } from './tab1.js';
 import { tabSecond } from './tab2.js';
 import { tabThird } from './tab3.js';
 
 onLoad();
-setStyle();
+
 
 
 const changeTabs = (elem) => {
