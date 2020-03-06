@@ -1,5 +1,5 @@
 import onLoad from './onload';
-import tabFirs from './tab1';
+import tabFirst from './tab1';
 import tabSecond from './tab2';
 import tabThird from './tab3';
 
