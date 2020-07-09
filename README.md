@@ -5,7 +5,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-# Tic Tac Toe Project
 <br/>
 <p align="center">
   <a href="https://www.microverse.org/">
@@ -13,7 +12,7 @@
   </a>
 
   <h3 align="center">
-    A project from the Microverse Javascript Curriculum
+    Fancy Restaurant Landing Page
   </h3>
 
   <h3 align="center">
@@ -31,7 +30,7 @@
 
 This project was built only using Javascript for DOM creation and manipulation. Everything, from the content to animations and styling was created inside Js functions.
 
-Everything was bundled using Webpack.
+This is made possible by webpack sourcing three differents files (one for every view) and pushing changes to the DOM through events.
 
 ## Snapshot
 <img src="src/asset/snapshot.jpg" alt="screenshot" width="800" height="500">
